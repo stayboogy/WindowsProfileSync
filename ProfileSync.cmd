@@ -1,9 +1,9 @@
 timeout /t 1
-XCOPY "C:\Users\Administrator\Desktop\*.*" "D:\CCLONE\Desktop\" /C /S /K /D /H /Y /E
-XCOPY "C:\Users\Administrator\Documents\*.*" "D:\CCLONE\Documents\" /C /S /K /D /H /Y /E
-XCOPY "C:\Users\Administrator\Pictures\*.*" "D:\CCLONE\Pictures\" /C /S /K /D /H /Y /E
-XCOPY "C:\Users\Administrator\Downloads\*.*" "D:\CCLONE\Downloads\" /C /S /K /D /H /Y /E
-XCOPY "C:\Users\Administrator\Music\*.*" "D:\CCLONE\Music\" /C /S /K /D /H /Y /E
-XCOPY "C:\Users\Administrator\Videos\*.*" "D:\CCLONE\Videos\" /C /S /K /D /H /Y /E
+XCOPY "C:\Users\Administrator\Desktop\*.*" "E:\BACKUP\W_USERPROFILE\Desktop\" /C /S /K /D /H /Y /E
+XCOPY "C:\Users\Administrator\Documents\*.*" "E:\BACKUP\W_USERPROFILE\Documents\" /C /S /K /D /H /Y /E
+XCOPY "C:\Users\Administrator\Pictures\*.*" "E:\BACKUP\W_USERPROFILE\Pictures\" /C /S /K /D /H /Y /E
+XCOPY "C:\Users\Administrator\Downloads\*.*" "E:\BACKUP\W_USERPROFILE\Downloads\" /C /S /K /D /H /Y /E
+XCOPY "C:\Users\Administrator\Music\*.*" "E:\BACKUP\W_USERPROFILE\Music\" /C /S /K /D /H /Y /E
+XCOPY "C:\Users\Administrator\Videos\*.*" "E:\BACKUP\W_USERPROFILE\Videos\" /C /S /K /D /H /Y /E
 timeout /t 30
 exit
