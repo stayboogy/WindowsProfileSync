@@ -5,5 +5,4 @@ XCOPY "C:\Users\Administrator\Pictures\*.*" "E:\BACKUP\W_USERPROFILE\Pictures\" 
 XCOPY "C:\Users\Administrator\Downloads\*.*" "E:\BACKUP\W_USERPROFILE\Downloads\" /C /S /K /D /H /Y /E
 XCOPY "C:\Users\Administrator\Music\*.*" "E:\BACKUP\W_USERPROFILE\Music\" /C /S /K /D /H /Y /E
 XCOPY "C:\Users\Administrator\Videos\*.*" "E:\BACKUP\W_USERPROFILE\Videos\" /C /S /K /D /H /Y /E
-timeout /t 30
-exit
+pause
